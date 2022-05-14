@@ -1,7 +1,12 @@
 .App {
   text-align: center;
+  transform: translateY(250px);
 }
-
+html,
+body {
+  background-color: #282c34;
+  color: #fff;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +40,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+input {
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  width: 250px;
+}
+button[type="submit"] {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: #000;
+  background-color: aqua;
+  cursor: pointer;
 }
